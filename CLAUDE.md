@@ -88,12 +88,30 @@ Sau khi implement xong, tự đánh giá lại theo checklist:
 - [ ] Tất cả file trong kế hoạch bước 4 đã được xử lý?
 - [ ] Có file nào bị sửa ngoài scope đã xác nhận không?
 - [ ] Các edge case trong yêu cầu đã được xử lý đủ chưa?
+- [ ] Nếu có file/thư mục mới được tạo → cấu trúc project trong CLAUDE.md đã được cập nhật chưa?
 
 Báo cáo kết quả ngắn gọn cho người dùng theo định dạng:
 
 ```
 ✅ Hoàn thành: ...
 ⚠️  Lưu ý: ... (nếu có deviation hoặc edge case chưa xử lý)
+```
+
+---
+
+## Cấu trúc project
+
+Khi có file hoặc thư mục mới được tạo hoặc xóa, PHẢI cập nhật section này ngay trong bước 6.
+
+```
+.claude/
+  commands/
+    issue.md      ← đọc chi tiết 1 GitHub issue
+    issues.md     ← liệt kê tất cả GitHub issues
+    pr.md         ← đọc chi tiết 1 pull request
+    prs.md        ← liệt kê tất cả pull requests
+  settings.json   ← hook giới hạn file đọc
+CLAUDE.md         ← workflow và cấu trúc project
 ```
 
 ---
