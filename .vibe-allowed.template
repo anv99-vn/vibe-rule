@@ -1,0 +1,9 @@
+# .vibe-allowed — Danh sách file/thư mục Claude được phép đọc
+# Copy file này thành .vibe-allowed ở root của project để kích hoạt
+# Mỗi dòng là 1 đường dẫn (tuyệt đối hoặc tương đối từ project root)
+# Dòng bắt đầu bằng # là comment
+
+# Ví dụ:
+# src/
+# lib/
+# C:/Users/VNA/Documents/my-project/src
