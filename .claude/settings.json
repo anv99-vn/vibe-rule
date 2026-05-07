@@ -1,15 +1,14 @@
 {
-  "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Read|Glob|Grep",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "python C:/Users/VNA/.claude/vibe-file-guard.py"
-          }
-        ]
+  "hooks": {},
+  "enabledPlugins": {
+    "caveman@caveman": true
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
       }
-    ]
+    }
   }
 }
